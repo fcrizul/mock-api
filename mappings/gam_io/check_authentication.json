@@ -1,7 +1,7 @@
 {
     "request": {
         "method": "POST",
-        "url": "/oauth/access_token"
+        "url": "/gam_io/CheckAuthentication"
     },
     "response": {
         "status": 200,
@@ -9,6 +9,6 @@
 		{
 			"Content-Type" : "application/json; charset=UTF-8"
 		},
-        "bodyFileName": "oauth/access_token.json"
+        "bodyFileName": "gam_io/check_authentication.json"
     }
 }

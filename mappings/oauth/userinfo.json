@@ -1,7 +1,7 @@
 {
     "request": {
         "method": "POST",
-        "url": "/oauth/access_token"
+        "url": "/oauth/userinfo"
     },
     "response": {
         "status": 200,
@@ -9,6 +9,6 @@
 		{
 			"Content-Type" : "application/json; charset=UTF-8"
 		},
-        "bodyFileName": "oauth/access_token.json"
+        "bodyFileName": "oauth/userinfo.json"
     }
 }
